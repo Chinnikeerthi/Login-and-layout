@@ -1,0 +1,65 @@
+html,body{
+    height:100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+.container{
+    height:100%;
+    width:100%;
+    background-color: lightskyblue;
+    margin:5px;
+}
+.container .a{
+    height:30%;
+    width:30%;
+    background-color: lightgreen;
+    border :2px solid black;
+     position: relative;
+     top:200px;
+    left:300px; 
+    /*  use when you have*/
+} 
+/* absolute works on those html whose  */
+.container .a .a1{
+    width:40%;
+    height:20%;
+
+    border:2px solid black;
+    background-color:chocolate;
+    position:absolute;
+    top: 50px;
+    left:50px;
+} 
+/* .text .chatbot{
+    height:100px;
+    width:100px;
+    position:fixed;
+    background-color: darkorange;
+    display:flex;
+    justify-content: 100px;
+    text-align:end;
+    border-radius: 5px;
+    opacity: 100px;
+    right:10px;
+    bottom:10px;
+
+}
+.text{
+    height:100%;
+    width:100%;
+    background-color: antiquewhite;
+}
+.sticky{
+    height:20px;
+    width:100%
+    display=flex;
+    background-color: cyan;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    font-weight: bolder;
+    padding:10px;
+    top:20px;
+    left:10px;
+} */
